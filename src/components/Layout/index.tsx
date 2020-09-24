@@ -6,9 +6,14 @@ import LeftColumn from "./../LeftColumn";
 import MiddleColumn from "./../MiddleColumn";
 import RightColumn from "./../RightColumn";
 
+import MobileHeader from "./../MobileHeader";
+import DesktopHeader from "./../DesktopHeader";
+
 const Layout: React.FC = () => {
     return (
         <Container>
+            <MobileHeader />
+            <DesktopHeader />
             <main>
                 <LeftColumn />
                 <MiddleColumn />
