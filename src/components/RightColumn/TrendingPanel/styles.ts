@@ -1,47 +1,52 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
-  > div {
-    padding: 12px;
-
-    .title {
-      font-size: 16px;
+    &:nth-child(2) {
+        position: sticky;
+        top: 64px;
     }
-    ul {
-      list-style: none;
-      margin-top: 8px;
 
-      li {
-        display: flex;
-        align-items: center;
+    > div {
+        padding: 12px;
 
-        .bullet {
-          display: inline-flex;
-          width: 8px;
-          height: 8px;
-          border-radius: 50%;
-          background: var(--color-link);
+        .title {
+            font-size: 16px;
         }
-        .news {
-          display: flex;
-          flex-direction: column;
-          margin-left: 10px;
+        ul {
+            list-style: none;
+            margin-top: 8px;
 
-          .head {
-            font-size: 14px;
-            font-weight: 600;
-            color: var(--color-black);
-          }
-          .subtext {
-            font-size: 12px;
-            color: var(--color-gray);
-          }
-        }
+            li {
+                display: flex;
+                align-items: center;
 
-        & + li {
-          margin-top: 10px;
+                .bullet {
+                    display: inline-flex;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: var(--color-link);
+                }
+                .news {
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 10px;
+
+                    .head {
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: var(--color-black);
+                    }
+                    .subtext {
+                        font-size: 12px;
+                        color: var(--color-gray);
+                    }
+                }
+
+                & + li {
+                    margin-top: 10px;
+                }
+            }
         }
-      }
     }
-  }
 `;
