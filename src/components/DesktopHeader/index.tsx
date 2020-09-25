@@ -4,7 +4,7 @@ import {
     Container,
     Wrapper,
     LinkedinIcon,
-    SearchIcon,
+    SearchInput,
     HomeIcon,
     NotificationsIcon,
     ProfileCircle,
