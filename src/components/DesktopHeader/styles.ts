@@ -101,6 +101,7 @@ export const ProfileCircle = styled.img`
     height: 24px;
     border-radius: 50%;
     border: solid 1px var(--color-icons);
+    flex-shrink: 0;
 `;
 
 export const CareDownIcon = styled(AiFillCaretDown)`

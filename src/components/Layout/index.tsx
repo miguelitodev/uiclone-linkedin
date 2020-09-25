@@ -11,6 +11,14 @@ import DesktopHeader from "./../DesktopHeader";
 import AdBanner from "./../AdBanner";
 
 const Layout: React.FC = () => {
+    const [isLoading, setIsLoading] = React.useState(true);
+
+    React.useEffect(() => {
+        setTimeout(() => {
+            // setIsLoading(false);
+        }, 1000);
+    }, []);
+
     return (
         <Container>
             <MobileHeader />
@@ -19,9 +27,9 @@ const Layout: React.FC = () => {
                 <AdBanner />
             </span>
             <main>
-                <LeftColumn />
-                <MiddleColumn />
-                <RightColumn />
+                <LeftColumn isLoading={isLoading} />
+                <MiddleColumn isLoading={isLoading} />
+                <RightColumn isLoading={isLoading} />
             </main>
         </Container>
     );
