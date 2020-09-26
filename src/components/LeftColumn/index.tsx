@@ -1,6 +1,6 @@
 import React from "react";
 
-import LoadingProfilePanel from "../Shimer/LoadingProfilePanel";
+import LoadingProfilePanel from "../Shimmer/LoadingProfilePanel";
 import ProfilePanel from "./ProfilePanel";
 import HashtagPanel from "./HashtagPanel";
 
