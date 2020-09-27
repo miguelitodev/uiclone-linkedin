@@ -1,6 +1,6 @@
 <div align="center" id="top"> 
     <img src="./.github/app.gif" alt="UI Clone Linkedin" />
-    &#xa0;
+    <br>
     <a href="https://miguelrisquelme-uiclone-linkedin.netlify.app">Demo</a>
 </div>
 
